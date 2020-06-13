@@ -1,3 +1,11 @@
+## Contents
+1. [Short description](#short-description)
+1. [Video Pitch](#video-pitch)
+1. [Architecture Diagram](#architecture-diagram)
+1. [Long description](#long-description)
+1. [Built with](#built-with)
+
+
 ## Short Description
 ### The problem
 Singapore is currently experiencing an aging population and there has been a rise in the trend of elderlies with no next-of-kin. These citizens are highly susceptible to health issues and injuries, and with no next-of-kin, dangerous situations could arise. Hence, there is a need to implement a system to look after this vulnerable demographic.
