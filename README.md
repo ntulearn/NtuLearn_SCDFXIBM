@@ -1,5 +1,5 @@
 ## Short Description
-### What's the problem?
+### The problem
 Singapore is currently experiencing an aging population and there has been a rise in the trend of elderlies with no next-of-kin. These citizens are highly susceptible to health issues and injuries, and with no next-of-kin, dangerous situations could arise. Hence, there is a need to implement a system to look after this vulnerable demographic.
 
 ### How can technology help?
