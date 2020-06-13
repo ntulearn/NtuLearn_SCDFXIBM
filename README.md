@@ -10,3 +10,5 @@ Any emergencies experienced by them can be immediately attended to.
 With the use of tools such as IBM cloud for speech to text recognition and artificial intelligence training, we can create a system which is able to determine the emergency level of the elderly through their speech and automate the appropriate response to that situation such as mobilising CFRS or the SCDF itself for effective early intervention.
 
 ## Video Pitch
+
+## Architecture Diagram
