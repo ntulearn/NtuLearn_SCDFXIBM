@@ -23,6 +23,7 @@ With the use of tools such as IBM cloud for speech to text recognition and artif
 4. This information would be sent to the node red software where it would determine the appropriate response for the level of the emergency faced.
 
 5. According to the level of emergency, the community could be activated through the myResponder app or the SCDF may be activated if the situation is deemed serious.
+## Long Description
 
 ## Built with
 * [Node Red](https://cloud.ibm.com/catalog?search=node%20red#search_results)
