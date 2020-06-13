@@ -24,7 +24,7 @@ With the use of tools such as IBM cloud for speech to text recognition and artif
 
 5. According to the level of emergency, the community could be activated through the myResponder app or the SCDF may be activated if the situation is deemed serious.
 ## Long Description
-
+[Detailed description](description.md)
 ## Built with
 * [Node Red](https://cloud.ibm.com/catalog?search=node%20red#search_results)
 * [IBM Speech to Text](https://cloud.ibm.com/catalog?search=speech%20to%20text#search_results)
