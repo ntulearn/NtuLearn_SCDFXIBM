@@ -4,13 +4,17 @@ Singapore has a rapidly growing agin population. Its median age increased from 3
 ## How it works
 Our solution is installing a home system (APA) for detecting accidents. This home system is always ready to detect for any distress signals that the elderly would sound off.
 
-Firstly, when the elderly calls APA for help, it will be activated and will start audio recording. The audio will then be translated to English through IBM cloud and Watson Assistant will then convert the speech to text. Afterwards, this data will be sent to our Natural Language Processing (NLP) platform which then classifies the following message as either emergency or non-emergency cases. Regardless of the classification, Named Entity Recognition (NER) will also be performed to sieve out entities within the message (e.g. incident, person involved) and send a report to our database. 
+Firstly, when the elderly calls APA for help, it will be activated and will start audio recording. The audio will then be translated to English through IBM cloud and Watson Assistant will then convert the speech to text. Afterwards, this data will be sent to our Natural Language Processing (NLP) platform which then classifies the following message as either emergency or non-emergency cases. 
 
-For emergency cases classified by NLP, a direct call will be linked to SCDF with the report sent directly to their database, allowing for quick action and contact with the elderly involved.
+Incidents with emergency labels will be immediately sent to SCDF and a call will be immediately linked between SCDF and the elderly for contact and quick action.
 
-For non-emergency cases, CFRs around the vicinity will be contacted via the Responder app to provide help to the elderly.
+For non-emergency cases, CFRs around the vicinity will be contacted via the myResponder app to provide help to the elderly.
 
-Important information such as the name of elderly, location and time of incident will be automatically included in the report sent to the database through application, thus allowing for quick response by SCDF if aid is required.
+After classification, NER can be performed to sieve out important entities within each text (e.g. incident, people involved). These entities will be used to form a report that will be uploaded to the database. For emergency cases, these reports will be sent to SCDF's database immediately.
+
+Important information such as the name of elderly, location and time of incident will be automatically included in the report sent to the database through the APA application, thus allowing for quick response by SCDF if aid is required.
+
+For non-emergency cases, these reports serve as a form of monitoring and SCDF can act quickly on the incident if there is any escalation to emergency levels.
 
 
 ## An example of a situation
@@ -20,3 +24,13 @@ If the injury is deemed non-threatening, the system would send a request for a C
 
 In the meantime, the elderly's details will be processed with NER to form a summarised report for SCDF, hence the elderly does not have to spend time reading out such info, which allows for quick action.
 
+## Explanation of Tech
+For NLP, we made use of Twitter's emergency tweets for classification. However, in practical implementation, we would require a small sample of emergency/ non-emergency calls from elderly or any other targeted groups for better training of the model.
+
+After tokenization and cleaning of words, the list of words will be passed into a Tf-idf vectorizer to transform the words into vectors with importance within each sentence, which allows the machine to use these vectors to classify into emergency/ non-emergency cases.
+
+With the database in place, faster classification methods through deep learning such as ALBERT could be used to perform classification within the shortest time possible.
+
+After classification, NER can be performed with SpaCy to sieve out important entities within each text (e.g. incident, people involved). These entities will be used to form a report that will be uploaded to the database. For emergency cases, these reports will be sent to SCDF's database.
+
+With the database in place, our own NER can be built on relevant data to find more specific topics related to emergency incidents, which will help to build greater clarity within the report.
