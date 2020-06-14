@@ -25,13 +25,13 @@ With the use of tools such as IBM cloud for speech to text recognition and artif
 ## Architecture Diagram
 ![alt text](diagram.jpg "Architecture Diagram")
 
-1. The user conveys the issue into the device as an audio file.
+1. The user calls for APA and conveys the issue into the device as an audio file.
 
 2. The video is sent to the cloud where the audio will be translated and then converted from speech to text.
 
 3. The file would be sent to the Watson Assistant and Natural Language Processing service simultaneously where it would evaluate the type and severity of the problem.
 
-4. This information would be sent to the node red software where it would determine the appropriate response for the level of the emergency faced.
+4. This information would be sent to the node red software where it would determine the appropriate response for the level of the emergency faced. Named Entity Recognition will also be used to create a summarised incident report simultaneously to be collected within the database.
 
 5. According to the level of emergency, the community could be activated through the myResponder app or the SCDF may be activated if the situation is deemed serious.
 ## Long Description
