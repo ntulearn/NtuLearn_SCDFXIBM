@@ -2,7 +2,7 @@
 Singapore has a rapidly growing agin population. Its median age increased from 34 years in 2000 to 40 years in 2015 (United Nations, 2017b). Moreover, the proportion of residents aged at least 65 years grew from 7% in 2000 to 13% in 2017 (Department of Statistics, 2017a). With this demographic shift, there is an increasing importance to look after them especially those who are more vulnerable such as elderlies who have no next-of-kin. As such, our solution hopes to address this problem by having them taken care of by the community through the use of a home system and seeks immediate attention for them when it is needed.
 
 ## How it works
-This home system is always ready to detect for any distress signals that the elderly would sound off. When the elderly communicate to the home system the issue in whatever language used, the conversation will be recorded as an audio file which would be translated into English using the IBM Language translator service before being converted to text.
+Our solution is installing a home system for detecting accidents.This home system is always ready to detect for any distress signals that the elderly would sound off. When the elderly communicate to the home system the issue in whatever language used, the conversation will be recorded as an audio file which would be translated into English using the IBM Language translator service before being converted to text.
 
 The text would then be sent to the Watson Assistant to identify the issues the elderly may be experiencing by referencing with an external data source. Natural Language Processing will be used to process key words from the text in order to determine the level of emergency the elderly is facing and respond with appropriate measures.
 
