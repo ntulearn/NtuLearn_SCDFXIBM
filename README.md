@@ -37,7 +37,7 @@ With the use of tools such as IBM cloud for speech to text recognition and artif
 [Detailed description](description.md)
 
 ## Getting Started
-Unfortunately, we are unable have a running code because we do not have data to represent real situations. However, we have attached a code folder which includes how the Natural Language Processing would worl using the twitter data attached as training data. The model given is for the classfication of the emergencies.
+Unfortunately, we are unable have a running code because we do not have data to represent real situations. However, we have attached a code folder which includes how the Natural Language Processing would work using the twitter data attached as training data. The model given is for the classfication of emergencies.
 
 ## Built with
 * [Node Red](https://cloud.ibm.com/catalog?search=node%20red#search_results)
