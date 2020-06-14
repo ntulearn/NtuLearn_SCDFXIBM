@@ -1,6 +1,5 @@
-# APA
 ![alt text](logo.png 'logo')
-## (Aging Population Assistant)
+# APA (Ageing Population Assistant)
 ## Contents
 1. [Short description](#short-description)
 1. [Video Pitch](#video-pitch)
