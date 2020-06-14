@@ -4,6 +4,7 @@
 1. [Video Pitch](#video-pitch)
 1. [Architecture Diagram](#architecture-diagram)
 1. [Long description](#long-description)
+1. [Getting Started](#getting-started)
 1. [Built with](#built-with)
 
 
