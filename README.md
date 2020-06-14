@@ -38,7 +38,7 @@ With the use of tools such as IBM cloud for speech to text recognition and artif
 [Detailed description](description.md)
 
 ## Getting Started
-Unfortunately, we are unable have a running code because we do not have data that is representative of real situations. However, we have attached a code folder which demonstrates how the Natural Language Processing would work using the twitter data attached as training data. The model given is for the classfication of emergencies. After classification, Named Entity Recognition (NER) could be performed with NLTK's part-of-speech tagging to extract important entities within the text to form a summarised incident report. However, the NER code has not been developed due to the lack of time.
+Unfortunately, we are unable have a running code because we do not have data that is representative of real situations. However, we have attached a code folder which demonstrates how the Natural Language Processing would work using the twitter data attached as training data. The model given is for the classfication of emergencies. After classification, Named Entity Recognition (NER) could be performed with SpaCy to extract important entities within the text to form a summarised incident report. However, the NER code has not been developed due to the lack of time.
 
 ## Built with
 * [Node Red](https://cloud.ibm.com/catalog?search=node%20red#search_results)
