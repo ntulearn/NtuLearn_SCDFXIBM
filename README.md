@@ -29,7 +29,7 @@ With the use of tools such as IBM cloud for speech to text recognition and artif
 
 2. The video is sent to the cloud where the audio will be translated and then converted from speech to text.
 
-3. The file would be sent to the Watson Assistant and Natural Language Processing service simultaneously where it would evaluate the type and severity of the problem. Named Entity Recognition will also be used to create a summarised incident report simultaneously to be collected within the database.
+3. The file would be sent to the Watson Assistant and Natural Language Processing service simultaneously where it would evaluate the type and severity of the problem. Named Entity Recognition will also be used to create a summarised incident report to be sent to the database.
 
 4. This information would be sent to the node red software where it would determine the appropriate response for the level of the emergency faced. 
 
